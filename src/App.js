@@ -51,7 +51,7 @@ function App() {
   useEffect(() => {
     loadBlockchainData()
   }, [])
-
+console.log("Its workingg...")
   return (
     <div>
       <header>

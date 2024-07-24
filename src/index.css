@@ -7,13 +7,13 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #0d0c0cad;
   --clr-black: #000000;
   --clr-grey: #2b2727;
   --clr-grey-2: #2b2727;
 
-  --clr-dark-blue: #0237AB;
-  --clr-light-blue: #125AC6;
+  --clr-dark-blue: #ab02a3;
+  --clr-light-blue: #c612a2;
 }
 
 body {

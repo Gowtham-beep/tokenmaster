@@ -18,7 +18,7 @@ async function main() {
   console.log(`Deployed TokenMaster Contract at: ${tokenMaster.address}\n`)
 
   // List 6 events
-  const occasions = [
+  const occasions =  [
     {
       name: "UFC Miami",
       cost: tokens(3),
@@ -60,6 +60,7 @@ async function main() {
       location: "Toronto, Canada"
     }
   ]
+  
 
   for (var i = 0; i < 5; i++) {
     const transaction = await tokenMaster.connect(deployer).list(
